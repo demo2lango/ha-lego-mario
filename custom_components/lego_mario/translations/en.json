@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "bluetooth_confirm": {
+        "title": "LEGO Mario Discovered",
+        "description": "Do you want to setup {name}?"
+      },
+      "user": {
+        "title": "Add LEGO Mario",
+        "data": {
+          "address": "Device"
+        }
+      }
+    },
+    "abort": {
+      "no_devices_found": "No undiscovered LEGO Mario devices found nearby.",
+      "already_configured": "Device is already configured"
+    }
+  }
+}
